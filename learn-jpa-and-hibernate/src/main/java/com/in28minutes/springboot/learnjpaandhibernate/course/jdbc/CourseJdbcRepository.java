@@ -12,8 +12,8 @@ public class CourseJdbcRepository {
 
     private static String INSERT_SQL = 
         """
-            INSERT INTO COURSE (ID, NAME, AUTHOR) 
-            VALUES (1, 'Learn AWS', 'in28minutes');
+            INSERT INTO COURSE (NAME, AUTHOR) 
+            VALUES ('Learn AWS', 'in28minutes');
         """;
     public void insert() {
         jdbcTemplate.update(INSERT_SQL);
