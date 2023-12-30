@@ -7,5 +7,10 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+<modules>
+    <module>bankacc-core</module>
+    <module>bankacc-cmd-api</module>
+    <module>bankacc-query-api</module>
+</modules>
 
 </project>
