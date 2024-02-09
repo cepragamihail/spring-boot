@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.axonframework.extensions.mongo</groupId>
 			<artifactId>axon-mongo</artifactId>
-			<version>4.9.0</version>
+			<version>4.4</version>
 		</dependency>
 
 		<dependency>
@@ -58,4 +58,35 @@
 		</dependency>
 	</dependencies>
 
+
+
+	<dependencyManagement>
+	
+
+		<dependencies>
+
+			<dependency>
+				<groupId>org.axonframework</groupId>
+				<artifactId>axon-messaging</artifactId>
+				<version>4.4.1</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>org.axonframework</groupId>
+				<artifactId>axon-modelling</artifactId>
+				<version>4.4.1</version>
+			</dependency>
+
+		
+
+			<dependency>
+				<groupId>org.axonframework</groupId>
+				<artifactId>axon-eventsourcing</artifactId>
+				<version>4.4.1</version>
+			</dependency>
+
+		</dependencies>
+
+	</dependencyManagement>
 </project>
